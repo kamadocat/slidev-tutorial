@@ -1,9 +1,10 @@
 ---
 theme: seriph
 background: https://source.unsplash.com/collection/94734566/1920x1080
+colorSchema: 'light'
 class: text-center
 highlighter: shiki
-lineNumbers: false
+lineNumbers: true
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -11,10 +12,14 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
-transition: slide-left
+transition: fade-out
 title: Welcome to Slidev
 mdc: true
 ---
+
+# 日本語タイトル
+
+ここで日本語のテスト
 
 # Welcome to Slidev
 
@@ -39,6 +44,36 @@ Presentation slides for developers
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
+
+---
+transition: fade-out
+---
+
+# 目次
+
+
+## 1. 研究背景・目的
+<br>
+
+## 2. 先行研究
+<br>
+
+## 3. 提案手法
+<br>
+
+## 4. 実験と結果
+<br>
+
+## 5. 考察
+<br>
+
+## 6. 総括
+
+---
+
+# 研究背景・目的
+
+
 
 ---
 transition: fade-out
